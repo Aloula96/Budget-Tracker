@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Budget Tracker</title>
+    <link rel="stylesheet" type="text/css" href="text.css">
+</head>
+
+<body>
+    <!-- Partie Revenus -->
+     <h1>Track ton budget</h1>
+    <section>
+        <h2>Revenu mensuel</h2>
+        <label for="Revenu">Revenu:</label>
+        <input type="number" id="Revenu" placeholder="Revenu"><br>
+
+        <label for="autre">Autre (aide,...):</label>
+        <input type="number" id="autre" placeholder="autre"><br>
+
+        <label for="total">Total Revenu:</label>
+        <input type="number" id="total" readonly><br>
+    </section>
+
+    <!-- Partie Besoins -->
+    <section>
+        <h2 class="expense">Dépenses (Besoins)</h2>
+        <label for="loyer">Loyer:</label>
+        <input type="number" id="loyer" placeholder="€"><br>
+
+        <label for="Mutuelle">Mutuelle:</label>
+        <input type="number" id="Mutuelle" placeholder="€"><br>
+
+        <label for="électricité">Électricité/Gaz:</label>
+        <input type="number" id="électricité" placeholder="€"><br>
+
+        <label for="Internet">Internet:</label>
+        <input type="number" id="Internet" placeholder="€"><br>
+
+        <label for="course">course:</label>
+        <input type="number" id="course" placeholder="€"><br>
+
+        <label for="transportation">Transport:</label>
+        <input type="number" id="transportation" placeholder="€"><br>
+
+        <label for="totalBesoins">Total Besoins:</label>
+        <input type="number" id="totalBesoins" readonly><br>
+    </section>
+
+    <!-- Partie Loisirs -->
+    <section>
+        <h2 class="expense">Dépenses (Loisirs)</h2>
+        <label for="Habit">Vêtements:</label>
+        <input type="number" id="Habit" placeholder="€"><br>
+
+        <label for="voyage">Voyage:</label>
+        <input type="number" id="voyage" placeholder="€"><br>
+
+        <label for="Numerique">Achats numériques (Uber Eats, maquillage...):</label>
+        <input type="number" id="Numerique" placeholder="€"><br>
+
+        <label for="totalLoisirs">Total Loisirs:</label>
+        <input type="number" id="totalLoisirs" readonly><br>
+    </section>
+
+    <!-- Partie Épargne et Dettes -->
+    <section>
+        <h2>Épargne et Dettes</h2>
+        <label for="épargne">Épargne:</label>
+        <input type="number" id="épargne" placeholder="€"><br>
+
+        <label for="dette">Dettes:</label>
+        <input type="number" id="dette" placeholder="€"><br>
+
+     
+    </section>
+    <section>
+        <h2>Résumé financier</h2>
+        <label for="SoldeRestant">Solde restant :</label>
+        <input type="number" id="SoldeRestant" placeholder="€" readonly>
+    </section>
+    
+
+</body>
+
+<script src="script4.js"></script>
+</html>
